@@ -1,0 +1,48 @@
+<!doctype <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ieu Parti - Riley Brown's Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css"/>
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script src="./assets/javascript/ieuparti.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <div class="container titleBar">
+            <h1 class="title">Ieu Parti</h1>
+            <h2 class="subtitle">- old french term meaning "an even game" and root of the word jeopardy</h2>
+        </div>
+            <!-- Possibly better for stylng to add the secondary classes in the jquery events, that way I can have the styling flow and change as I add the classes -->
+        <div class="container instructionBar">
+            <p class="instructions">
+                After clicking the start button below you will select your trivia category.
+                Once you've selected your category, the questions will appear on your screen one after another.
+                You will have 20 seconds to answer each question by selecting one of the options below the question.
+                After you answer or if you run out of time the quiz will move on to the next question.
+                At the end of the category you will see how many questions you guessed correctly and incorrectly, and for how many you ran out of time.
+            </p>
+        </div>
+
+        <div class="container startBar">
+            <div class="startButton">
+                <p class="startButtonText">
+                    Start Game
+                </p>
+            </div>
+        </div>
+
+        <div class="container resetBar">
+            <div class="resetButton">
+                <p>
+                    Restart
+                </p>
+            </div>
+        </div>
+    </div>   
+</body>
+</html>

@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+.instructionBar {
+    background-color: red;
+    width: 50%;
+}
+
+.categoryBar {
+    padding: 0 5%;
+    height: 25%;
+    width: 100%;
+}
+
+.categoryCard {
+    width: 20%;
+    margin: 0 2.5%;
+    background-color: blue;
+    border: 2px;
+    border-style: ridge;
+    border-color: yellow;
+    float: left;
+    text-align: center;
+    height: 100%;
+    padding: 1.5em 0;
+    color: white;
+    font-size: 3em;
+}
+
+.startButton {
+    width: 20%;
+    text-align: center;
+    background-color:blue;
+    border: 2px;
+    border-style: ridge;
+    border-color: yellow;
+    color: white;
+}
+
