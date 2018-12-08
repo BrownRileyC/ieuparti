@@ -3,8 +3,7 @@
 }
 
 body {
-    background-image: url(../images/CardBackground.jpg);
-    background-size: cover;
+    background-image:radial-gradient(rgba(128, 0, 128, 0.384),purple,darkblue);
 }
 
 .wrapper {
@@ -46,10 +45,10 @@ body {
 .categoryCard {
     width: 20%;
     margin: 0 2.5%;
-    border: 1px;
+    border: 2px;
     border-style: ridge;
     border-color: yellow;
-    background-image:radial-gradient(blue,darkblue);
+    background-color: blue;
     float: left;
     text-align: center;
     height: 100%;
@@ -77,12 +76,14 @@ body {
     border-style: ridge;
     border-color: yellow;
     color: white;
-    margin: 0 auto 20px;;
+    margin: 0 auto 20px;
+    padding: 1em 0;
+    font-size: 2em;
 }
 
 .answerCard {
     width: 40%;
-    background-image:radial-gradient(blue,darkblue);
+    background-color: blue;
     border: 2px;
     border-style: ridge;
     border-color: yellow;

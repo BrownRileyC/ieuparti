@@ -1,27 +1,27 @@
 food = {
-    title: "Food",
+    title: "Alcohol",
         // Change Q keys into questionArray = ["q1","q2"]
         // create answer array either for each question or one answer array and grab a range of the array
-    questionArray: ["Q1","Q2","Q3","Q4", "Q5"],
+    questionArray: ["This liquor is made from the blue agave plant.","This cocktail is made with honey, whiskey, lemon, and hot water.","The name of this style of beer means India Pale Ale.","Guiness beer was first brewed in this country.", "This president's resume includes selling liquor before his presidency."],
     answerArray: [{
-        array: ["A1","Q1","A3","A4"],
-        answer: "Q1"
+        array: ["Gin","Tequila","Vodka","Port"],
+        answer: "What is Tequila"
     },
     {
-        array: ["Q2","A2","A3","A4"],
-        answer: "Q2"
+        array: ["Hot Toddy","Americano","French 75","Cosmopolitan"],
+        answer: "What is Hot Toddy"
     },
     {
-        array: ["A1","Q3","A3","A4"],
-        answer: "Q3"
+        array: ["Witbier","IPA","Dubble","Saison"],
+        answer: "What is IPA"
     },
     {
-        array: ["A1","A2","Q4","A4"],
-        answer: "Q4"
+        array: ["Scotland","France","Ireland","Mexico"],
+        answer: "What is Ireland"
     },
     {
-        array: ["A1","A2","A3","Q5"],
-        answer: "Q5"
+        array: ["George Washington","George W Bush","JFK","Abraham Lincoln"],
+        answer: "What is Abraham Lincoln"
     }],
     correct: 0,
     incorrect: 0
@@ -29,26 +29,26 @@ food = {
 
 animals = {
     title: "Animals",
-    questionArray: ["Q1","Q2","Q3","Q4","Q5"],
+    questionArray: ["This mammal is the largest species in the known world.","This species of animal, with a much longer neck, surprisingly has the same number of vertebrae as humans.","Often mistaken for a whale, this species is actually in the dolphin family.","This animal is renowned for its incredible memory.","This animal is commonly thought to have only a three second memory."],
     answerArray: [{
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["The Elephant","The Elephant Seal","The Blue Whale","The Human"],
+        answer: "What is The Blue Whale"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["The Giraffe","The Hummingbird","The Leopard","The Blue Whale"],
+        answer: "What is The Giraffe"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["The Sperm Whale","The Great White Shark","The Orca","The Tiger"],
+        answer: "What is The Orca"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["The Elephant","The Goldfish","The Silverback Gorilla","The Toad"],
+        answer: "What is The Elephant"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["The Elephant","The Baboon","The Dog","The Goldfish"],
+        answer: "What is The Goldfish"
     }],
     correct: 0,
     incorrect: 0
@@ -56,26 +56,26 @@ animals = {
 
 art = {
     title: "Art",
-    questionArray: ["Q1","Q2","Q3","Q4", "Q5"],
+    questionArray: ["This famous artist astonishingly only sold 1 painting in his lifetime.","Paul Gauguin's work, The Yellow Christ, belongs to this artistic movement","This ancient artist was the court sculptor to Alexander the Great","This art movement developed as a reaction to the strict regulations and symmetry of the Baroque", "Leonardo da Vinci's The Last Supper had this element romved by careless workers."],
     answerArray: [{
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["Salvador Dali","Leonardo Da Vinci","Paul Gauguin","Vincent Van Gogh"],
+        answer: "What is Vincent Van Gogh"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["Pointilism","Cloisonnism","Modernism","Cubism"],
+        answer: "What is Cloisonnism"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["Lysippus","el Greco","Praxiteles","Vulcan"],
+        answer: "What is Lysippus"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["Dadaism","Cubism","Romanticism","Rococo"],
+        answer: "What is Rococo"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["Judas","Jesus' Feet","A pouch of a silver coins","God"],
+        answer: "What is Jesus' Feet"
     }],
     correct: 0,
     incorrect: 0
@@ -83,26 +83,26 @@ art = {
 
 sports = {
     title: "Sports",
-    questionArray: ["Q1","Q2","Q3","Q4","Q5"],
+    questionArray: ["This is the only team to play in every soccer World Cup tournament.","This American Football team won the first two Super Bowls (in 1967 and 1968).","This boxer was the first to defeat Muhammad Ali in professional Boxing","In horse racing, this is awarded to a horse which wins the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes.","This Williams sister has won more tennis grand slam titles."],
     answerArray: [{
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["USA","Italy","England","Brazil"],
+        answer: "What is Brazil"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["The Eagles","The Green Bay Packers","The Bucanners","The Cowboys"],
+        answer: "What is The Green Bay Packers"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["Rocky Balboa","Jack Johnson","Joe Frazier","Apollo Creed"],
+        answer: "What is Joe Frazier"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["A Mint Julep","The Triple Crown","The Golden Oat Sack","A Nice Pet"],
+        answer: "What is The Triple Crown"
     },
     {
-        array: ["A1","A2","A3","A4"],
-        answer: "A1"
+        array: ["Serena","William Penn","Venus","Pharell"],
+        answer: "What is Serena"
     }],
     correct: 0,
     incorrect: 0
@@ -145,7 +145,7 @@ var goToCategories = function() {
 
 var count = function(){
     quizTimer--;
-    $('.timer').text(quizTimer)
+    $('.timer').text("Seconds left: "+quizTimer)
     if (quizTimer === 0) {
         clearInterval(intervalId);
         postQuestionDisplayTimeout();
@@ -172,7 +172,7 @@ var getAnswers = function() {
         for (var i = 0; i < 4; i ++) {
         var answerCard = $('<div>');
         $('.startBar').append(answerCard);
-        answerCard.text(category.answerArray[randomNumber].array[i]);
+        answerCard.text("What is "+category.answerArray[randomNumber].array[i]);
         answerCard.addClass('answerCard' + ' ' + "answer"+(i) + " "+"button")
         };
     // It is probably better to simply do arrays for each question
@@ -199,7 +199,7 @@ var postQuestionDisplayIncorrect = function(str) {
     $('.startBar').empty();
     interQuestion = $('<div>');
     interQuestion.appendTo('.questionBar');
-    interQuestion.text("Too bad.  You answered " + str + " but the correct answer was " + category.answerArray[questionNumber].answer);
+    interQuestion.text("Too bad.  You answered " + str + " but the correct answer was " + category.answerArray[randomNumber].answer);
     questionNumber++;
 
     // ToDO: Display the correct answer and tell the user if they got it right or wrong (use the interQuestion.text to display the correct answer and the result)
@@ -214,7 +214,7 @@ var postQuestionDisplayTimeout = function() {
     $('.startBar').empty();
     interQuestion = $('<div>');
     interQuestion.appendTo('.questionBar');
-    interQuestion.text("You ran out of time!  The correct answer was " + category.answerArray[questionNumber].answer);
+    interQuestion.text("You ran out of time!  The correct answer was " + category.answerArray[randomNumber].answer);
     category.incorrect ++ ;
     questionNumber++;
     // ToDO: Display the correct answer and tell the user if they got it right or wrong (use the interQuestion.text to display the correct answer and the result)
@@ -267,7 +267,7 @@ var beginQuiz = function() {
     var timerBox = $('<div>');
     timerBox.addClass('timer');
     $('.questionBar').prepend(timerBox);
-    timerBox.text(quizTimer);
+    timerBox.text("Seconds left: "+quizTimer);
     timerStart();
     while (runAgain  === true){
         getQuestion();
