@@ -60,3 +60,8 @@ What happens when you play?
 
 
         
+
+To randomly order the questions:
+    - Generate a random number from 0-QuestionArray.length
+    - save that to random number and pass that to get Question
+    - add that to askedQuestions array and throw an if to see if it's in the array then don't do it

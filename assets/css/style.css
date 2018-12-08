@@ -1,24 +1,55 @@
 * {
     box-sizing: border-box;
 }
-.instructionBar {
-    background-color: red;
+
+body {
+    background-image: url(../images/CardBackground.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    padding: 5% 10%;
+}
+.titleBar {
+    text-align: center;
+    color: white;
+    margin: 0 auto 20px;
+}
+.title {
+    font-size: 3em;
+    margin: 0 auto 20px;
+}
+.subtitle {
+    font-size: 1.5em;
     width: 50%;
+    margin: 0 auto;
+}
+.instructionBar {
+    background-image:radial-gradient(blue,darkblue);
+    border: 2px;
+    border-style: ridge;
+    border-color: yellow;
+    width: 50%;
+    padding: .5em;
+    color: white;
+    font-size: 1.5em;
+    margin: 0 auto;
 }
 
 .categoryBar {
     padding: 0 5%;
     height: 25%;
     width: 100%;
+    margin: 0 auto;
 }
 
 .categoryCard {
     width: 20%;
     margin: 0 2.5%;
-    background-color: blue;
-    border: 2px;
+    border: 1px;
     border-style: ridge;
     border-color: yellow;
+    background-image:radial-gradient(blue,darkblue);
     float: left;
     text-align: center;
     height: 100%;
@@ -29,6 +60,7 @@
 
 .startButton {
     width: 20%;
+    margin: 20px auto 0;
     text-align: center;
     background-color:blue;
     border: 2px;
@@ -40,16 +72,17 @@
 .questionBar {
     width: 50%;
     text-align: center;
-    background-color: blue;
+    background-image:radial-gradient(blue,darkblue);
     border: 2px;
     border-style: ridge;
     border-color: yellow;
     color: white;
+    margin: 0 auto 20px;;
 }
 
 .answerCard {
     width: 40%;
-    background-color: blue;
+    background-image:radial-gradient(blue,darkblue);
     border: 2px;
     border-style: ridge;
     border-color: yellow;
@@ -57,5 +90,20 @@
     height: 10%;
     padding: .5em 0;
     color: white;
-    font-size: 3em;
+    font-size: 2em;
+    margin: 0 auto 10px;
+}
+
+
+.button:link {
+    background-image:radial-gradient(blue,darkblue);
+}
+.button:visited {
+    background-color: greenyellow;
+}
+.button:hover {
+    background-color: rgba(240, 243, 46, 0.733)
+}
+.button:active {
+    background-color: greenyellow;
 }
