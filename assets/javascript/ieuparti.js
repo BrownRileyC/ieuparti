@@ -2,26 +2,37 @@ food = {
     title: "Alcohol",
         // Change Q keys into questionArray = ["q1","q2"]
         // create answer array either for each question or one answer array and grab a range of the array
-    questionArray: ["This liquor is made from the blue agave plant.","This cocktail is made with honey, whiskey, lemon, and hot water.","The name of this style of beer means India Pale Ale.","Guiness beer was first brewed in this country.", "This president's resume includes selling liquor before his presidency."],
+    questionArray: ["This liquor is made from the agave plant.","This cocktail is made with honey, whiskey, lemon, and hot water.","The name of this style of beer means India Pale Ale.","Guiness beer was first brewed in this country.", "This president's resume includes selling liquor before his presidency."],
     answerArray: [{
         array: ["Gin","Tequila","Vodka","Port"],
-        answer: "What is Tequila"
+        answer: "What is Tequila",
+        image: "../images/Tequila.jpg",
+        text: "Tres Agaves Tequila"
     },
     {
         array: ["Hot Toddy","Americano","French 75","Cosmopolitan"],
-        answer: "What is Hot Toddy"
+        answer: "What is Hot Toddy",
+        image: "../images/hot-toddy.jpg",
+        text: "A warming mug full of Hot Toddy"
     },
     {
         array: ["Witbier","IPA","Dubble","Saison"],
-        answer: "What is IPA"
+        answer: "What is IPA",
+        image: "../images/IPA.jpeg",
+        text: "Goose Island IPA"
     },
     {
         array: ["Scotland","France","Ireland","Mexico"],
-        answer: "What is Ireland"
+        answer: "What is Ireland",
+        image: "../images/Ireland.jpg",
+        text: "A map of Ireland"
     },
     {
         array: ["George Washington","George W Bush","JFK","Abraham Lincoln"],
-        answer: "What is Abraham Lincoln"
+        answer: "What is Abraham Lincoln",
+        image: "../images/Lincoln.jpg",
+        text: "Abraham Lincoln"
+        
     }],
     correct: 0,
     incorrect: 0
@@ -32,23 +43,34 @@ animals = {
     questionArray: ["This mammal is the largest species in the known world.","This species of animal, with a much longer neck, surprisingly has the same number of vertebrae as humans.","Often mistaken for a whale, this species is actually in the dolphin family.","This animal is renowned for its incredible memory.","This animal is commonly thought to have only a three second memory."],
     answerArray: [{
         array: ["The Elephant","The Elephant Seal","The Blue Whale","The Human"],
-        answer: "What is The Blue Whale"
+        answer: "What is The Blue Whale",
+        image: "../images/BlueWhale.jpeg",
+        text: "The Majestic Blue Whale"
     },
     {
         array: ["The Giraffe","The Hummingbird","The Leopard","The Blue Whale"],
-        answer: "What is The Giraffe"
+        answer: "What is The Giraffe",
+        image: "../images/Giraffe.jpg",
+        text: "A lovely sunset complimented by a Giraffe"
     },
     {
         array: ["The Sperm Whale","The Great White Shark","The Orca","The Tiger"],
-        answer: "What is The Orca"
+        answer: "What is The Orca",
+        image: "../images/Orca.gif",
+        text: "The orca, also know as a Killer Whale"
     },
     {
         array: ["The Elephant","The Goldfish","The Silverback Gorilla","The Toad"],
-        answer: "What is The Elephant"
+        answer: "What is The Elephant",
+        image: "../images/Elephant.jpg",
+        text: "An Elephant waving hello"
     },
     {
         array: ["The Elephant","The Baboon","The Dog","The Goldfish"],
-        answer: "What is The Goldfish"
+        answer: "What is The Goldfish",
+        image: "../images/goldfish.jpg",
+        text: "With proper training a goldfish can learn and remember many things"
+        
     }],
     correct: 0,
     incorrect: 0
@@ -59,23 +81,34 @@ art = {
     questionArray: ["This famous artist astonishingly only sold 1 painting in his lifetime.","Paul Gauguin's work, The Yellow Christ, belongs to this artistic movement","This ancient artist was the court sculptor to Alexander the Great","This art movement developed as a reaction to the strict regulations and symmetry of the Baroque", "Leonardo da Vinci's The Last Supper had this element romved by careless workers."],
     answerArray: [{
         array: ["Salvador Dali","Leonardo Da Vinci","Paul Gauguin","Vincent Van Gogh"],
-        answer: "What is Vincent Van Gogh"
+        answer: "What is Vincent Van Gogh",
+        image: "../images/TheRedVineyardsAtArlesVanGogh.jpg",
+        text: "Van Gogh's only painting sold while alive: The Red Vineyards at Arles"
     },
     {
         array: ["Pointilism","Cloisonnism","Modernism","Cubism"],
-        answer: "What is Cloisonnism"
+        answer: "What is Cloisonnism",
+        image: "../images/ChristoGiallo.jpg",
+        text: "Christo Giallo, or The Yellow Christ"
     },
     {
         array: ["Lysippus","el Greco","Praxiteles","Vulcan"],
-        answer: "What is Lysippus"
+        answer: "What is Lysippus",
+        image: "../images/AlexandreTheGreat.jpg",
+        text: "Lysippus's marble bust of Alexander the Great"
     },
     {
         array: ["Dadaism","Cubism","Romanticism","Rococo"],
-        answer: "What is Rococo"
+        answer: "What is Rococo",
+        image: "../images/Rococo.jpg",
+        text: "A rococo stylized fixture in Zwiefalten Abbey"
     },
     {
         array: ["Judas","Jesus' Feet","A pouch of a silver coins","God"],
-        answer: "What is Jesus' Feet"
+        answer: "What is Jesus' Feet",
+        image: "../images/TheLastSupper.jpg",
+        text: "The Last Supper"
+        
     }],
     correct: 0,
     incorrect: 0
@@ -86,23 +119,34 @@ sports = {
     questionArray: ["This is the only team to play in every soccer World Cup tournament.","This American Football team won the first two Super Bowls (in 1967 and 1968).","This boxer was the first to defeat Muhammad Ali in professional Boxing","In horse racing, this is awarded to a horse which wins the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes.","This Williams sister has won more tennis grand slam titles."],
     answerArray: [{
         array: ["USA","Italy","England","Brazil"],
-        answer: "What is Brazil"
+        answer: "What is Brazil",
+        image: "../images/Brazil.jpg",
+        text: "Brazil's Soccer team celebrating"
     },
     {
         array: ["The Eagles","The Green Bay Packers","The Bucanners","The Cowboys"],
-        answer: "What is The Green Bay Packers"
+        answer: "What is The Green Bay Packers",
+        image: "../images/GreenBayPackers.jpg",
+        text: "The Green Bay Packers"
     },
     {
         array: ["Rocky Balboa","Jack Johnson","Joe Frazier","Apollo Creed"],
-        answer: "What is Joe Frazier"
+        answer: "What is Joe Frazier",
+        image: "../images/JoeFrazier.jpg",
+        text: "Joe Frazier"
     },
     {
         array: ["A Mint Julep","The Triple Crown","The Golden Oat Sack","A Nice Pet"],
-        answer: "What is The Triple Crown"
+        answer: "What is The Triple Crown",
+        image: "../images/TripleCrown.jpg",
+        text: "The Triple Crown Trophy"
     },
     {
         array: ["Serena","William Penn","Venus","Pharell"],
-        answer: "What is Serena"
+        answer: "What is Serena",
+        image: "../images/SerenaWilliams.jpg",
+        text: "Serena Williams"
+        
     }],
     correct: 0,
     incorrect: 0
@@ -177,7 +221,16 @@ var getAnswers = function() {
         };
     // It is probably better to simply do arrays for each question
 };
-
+var displayImage = function() {
+    var displayDiv= $('<div>')
+    $('.startBar').append(displayDiv);
+    var interImage = $('<img>');
+    var interText = $('<p>');
+    displayDiv.append(interImage);
+    displayDiv.append(interText);
+    interText.text(category.answerArray[randomNumber].text);
+    interImage.attr('src',category.answerArray[randomNumber].image)
+};
 var postQuestionDisplayCorrect = function(str) {
     clearInterval(intervalId);
     $('.questionBar').empty();
@@ -186,8 +239,9 @@ var postQuestionDisplayCorrect = function(str) {
     interQuestion.appendTo('.questionBar');
     interQuestion.text("Great job! You guessed " + str +" and you got it!");
     questionNumber++;
+    displayImage();
     // ToDO: Display the correct answer and tell the user if they got it right or wrong (use the interQuestion.text to display the correct answer and the result)
-    setTimeout(beginQuiz, 3000);
+    setTimeout(beginQuiz, 5000);
     // Get rid of everything on the screen and show the in between answers stuff
     // This will be on a timeout rather than an interval
     // after the time out we run a function that Gets the Next Question
@@ -201,9 +255,9 @@ var postQuestionDisplayIncorrect = function(str) {
     interQuestion.appendTo('.questionBar');
     interQuestion.text("Too bad.  You answered " + str + " but the correct answer was " + category.answerArray[randomNumber].answer);
     questionNumber++;
-
+    displayImage();
     // ToDO: Display the correct answer and tell the user if they got it right or wrong (use the interQuestion.text to display the correct answer and the result)
-    setTimeout(beginQuiz, 3000);
+    setTimeout(beginQuiz, 5000);
     // Get rid of everything on the screen and show the in between answers stuff
     // This will be on a timeout rather than an interval
     // after the time out we run a function that Gets the Next Question
@@ -217,8 +271,9 @@ var postQuestionDisplayTimeout = function() {
     interQuestion.text("You ran out of time!  The correct answer was " + category.answerArray[randomNumber].answer);
     category.incorrect ++ ;
     questionNumber++;
+    displayImage();
     // ToDO: Display the correct answer and tell the user if they got it right or wrong (use the interQuestion.text to display the correct answer and the result)
-    setTimeout(beginQuiz, 3000);
+    setTimeout(beginQuiz, 5000);
     // Get rid of everything on the screen and show the in between answers stuff
     // This will be on a timeout rather than an interval
     // after the time out we run a function that Gets the Next Question
