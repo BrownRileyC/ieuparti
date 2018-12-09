@@ -12,14 +12,14 @@ body {
 .titleBar {
     text-align: center;
     color: white;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 .title {
     font-size: 3em;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
 }
 .subtitle {
-    font-size: 1.5em;
+    font-size: 1em;
     width: 50%;
     margin: 0 auto;
 }
@@ -94,7 +94,25 @@ body {
     font-size: 2em;
     margin: 0 auto 10px;
 }
-
+.imageBox {
+    width: 75%;
+    margin: 0 auto;
+    height: 250px;
+    text-align: center;
+}
+.image {
+    height: 75%;
+    margin: 0 auto;
+}
+.text {
+    margin: 10px auto 0;
+    background-color: blue;
+    color: white;
+    font-size: 2em;
+    border: 2px;
+    border-style: ridge;
+    border-color: yellow;
+}
 
 .button:link {
     background-image:radial-gradient(blue,darkblue);
