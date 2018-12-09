@@ -2,32 +2,32 @@ var food = {
     title: "Alcohol",
     questionArray: ["This liquor is made from the agave plant.", "This cocktail is made with honey, whiskey, lemon, and hot water.", "The name of this style of beer means India Pale Ale.", "Guiness beer was first brewed in this country.", "This president's resume includes selling liquor before his presidency."],
     answerArray: [{
-        array: ["Gin", "Tequila", "Vodka", "Port"],
+        array: ["What is Gin", "What is Tequila", "What is Vodka", "What is Port"],
         answer: "What is Tequila",
         image: "assets/images/Tequila.jpg",
         text: "Tres Agaves Tequila"
         },
         {
-        array: ["Hot Toddy", "Americano", "French 75", "Cosmopolitan"],
-        answer: "What is Hot Toddy",
+        array: ["What is a Hot Toddy", "What is an Americano", "What is a French 75", "What is a Cosmopolitan"],
+        answer: "What is a Hot Toddy",
         image: "assets/images/hot-toddy.jpg",
         text: "A warming mug full of Hot Toddy"
         },
         {
-        array: ["Witbier", "IPA", "Dubble", "Saison"],
+        array: ["What is Witbier", "What is IPA", "What is Dubble", "What is Saison"],
         answer: "What is IPA",
         image: "assets/images/IPA.jpeg",
         text: "Goose Island IPA"
         },
         {
-        array: ["Scotland", "France", "Ireland", "Mexico"],
+        array: ["What is Scotland", "What is France", "What is Ireland", "What is Mexico"],
         answer: "What is Ireland",
         image: "assets/images/Ireland.jpg",
         text: "A map of Ireland"
         },
         {
-        array: ["George Washington", "George W Bush", "JFK", "Abraham Lincoln"],
-        answer: "What is Abraham Lincoln",
+        array: ["Who is George Washington", "Who is George W Bush", "Who is JFK", "Who is Abraham Lincoln"],
+        answer: "Who is Abraham Lincoln",
         image: "assets/images/Lincoln.jpg",
         text: "Abraham Lincoln"
         }],
@@ -39,31 +39,31 @@ var animals = {
     title: "Animals",
     questionArray: ["This mammal is the largest species in the known world.", "This species of animal, with a much longer neck, surprisingly has the same number of vertebrae as humans.", "Often mistaken for a whale, this species is actually in the dolphin family.", "This animal is renowned for its incredible memory.", "This animal is commonly thought to have only a three second memory."],
     answerArray: [{
-        array: ["The Elephant", "The Elephant Seal", "The Blue Whale", "The Human"],
-        answer: "What is The Blue Whale",
-        image: "assets/images/BlueWhale.jpeg",
+        array: ["What is the Elephant", "What is the Elephant Seal", "What is the Blue Whale", "What is the Human"],
+        answer: "What is the Blue Whale",
+        image: "assets/images/BlueWhale.jpg",
         text: "The Majestic Blue Whale"
     },
     {
-        array: ["The Giraffe", "The Hummingbird", "The Leopard", "The Blue Whale"],
-        answer: "What is The Giraffe",
+        array: ["What is the Giraffe", "What is the Hummingbird", "What is the Leopard", "What is the Blue Whale"],
+        answer: "What is the Giraffe",
         image: "assets/images/Giraffe.jpg",
         text: "A lovely sunset complimented by a Giraffe"
     },
     {
-        array: ["The Sperm Whale", "The Great White Shark", "The Orca", "The Tiger"],
-        answer: "What is The Orca",
+        array: ["What is the Sperm Whale", "What is the Great White Shark", "What is the Orca", "What is the Tiger"],
+        answer: "What is the Orca",
         image: "assets/images/Orca.gif",
         text: "The orca, also know as a Killer Whale"
     },
     {
-        array: ["The Elephant", "The Goldfish", "The Silverback Gorilla", "The Toad"],
+        array: ["What is the Elephant", "What is the Goldfish", "What is the Silverback Gorilla", "What is the Toad"],
         answer: "What is The Elephant",
         image: "assets/images/Elephant.jpg",
         text: "An Elephant waving hello"
     },
     {
-        array: ["The Elephant", "The Baboon", "The Dog", "The Goldfish"],
+        array: ["What is the Elephant", "What is the Baboon", "What is the Dog", "What is the Goldfish"],
         answer: "What is The Goldfish",
         image: "assets/images/goldfish.jpg",
         text: "With proper training a goldfish can learn and remember many things"
@@ -75,34 +75,34 @@ var animals = {
 
 var art = {
     title: "Art",
-    questionArray: ["This famous artist astonishingly only sold 1 painting in his lifetime.", "Paul Gauguin's work, The Yellow Christ, belongs to this artistic movement", "This ancient artist was the court sculptor to Alexander the Great", "This art movement developed as a reaction to the strict regulations and symmetry of the Baroque", "Leonardo da Vinci's The Last Supper had this element romved by careless workers."],
+    questionArray: ["This famous artist astonishingly only sold 1 painting in his lifetime.", "Paul Gauguin's work, The Yellow Christ, belongs to this artistic movement", "This ancient artist was the court sculptor to Alexander the Great", "This art movement developed as a reaction to the strict regulations and symmetry of the Baroque", "Leonardo da Vinci's The Last Supper had this element removed by careless workers."],
     answerArray: [{
-        array: ["Salvador Dali", "Leonardo Da Vinci", "Paul Gauguin", "Vincent Van Gogh"],
-        answer: "What is Vincent Van Gogh",
+        array: ["Who is Salvador Dali", "Who is Leonardo Da Vinci", "Who is Paul Gauguin", "Who is Vincent Van Gogh"],
+        answer: "Who is Vincent Van Gogh",
         image: "assets/images/TheRedVineyardsAtArlesVanGogh.jpg",
         text: "Van Gogh's only painting sold while alive: The Red Vineyards at Arles"
     },
     {
-        array: ["Pointilism", "Cloisonnism", "Modernism", "Cubism"],
+        array: ["What is Pointilism", "What is Cloisonnism", "What is Modernism", "What is Cubism"],
         answer: "What is Cloisonnism",
-        image: "assets/images/ChristoGiallo.jpg",
+        image: "assets/images/CristoGiallo.jpg",
         text: "Christo Giallo, or The Yellow Christ"
     },
     {
-        array: ["Lysippus", "el Greco", "Praxiteles", "Vulcan"],
-        answer: "What is Lysippus",
+        array: ["Who is Lysippus", "Who is el Greco", "Who is Praxiteles", "Who is Vulcan"],
+        answer: "Who is Lysippus",
         image: "assets/images/AlexandreTheGreat.jpg",
         text: "Lysippus's marble bust of Alexander the Great"
     },
     {
-        array: ["Dadaism", "Cubism", "Romanticism", "Rococo"],
+        array: ["What is Dadaism", "What is Cubism", "What is Romanticism", "What is Rococo"],
         answer: "What is Rococo",
         image: "assets/images/Rococo.jpg",
         text: "A rococo stylized fixture in Zwiefalten Abbey"
     },
     {
-        array: ["Judas", "Jesus' Feet", "A pouch of a silver coins", "God"],
-        answer: "What is Jesus' Feet",
+        array: ["What is Judas", "What are Jesus' Feet", "What is A pouch of a silver coins", "What is God"],
+        answer: "What are Jesus' Feet",
         image: "assets/images/TheLastSupper.jpg",
         text: "The Last Supper"
         
@@ -115,32 +115,32 @@ var sports = {
     title: "Sports",
     questionArray: ["This is the only team to play in every soccer World Cup tournament.", "This American Football team won the first two Super Bowls (in 1967 and 1968).", "This boxer was the first to defeat Muhammad Ali in professional Boxing", "In horse racing, this is awarded to a horse which wins the Kentucky Derby, the Preakness Stakes, and the Belmont Stakes.", "This Williams sister has won more tennis grand slam titles."],
     answerArray: [{
-        array: ["USA", "Italy", "England", "Brazil"],
+        array: ["What is America", "What is Italy", "What is England", "What is Brazil"],
         answer: "What is Brazil",
         image: "assets/images/Brazil.jpg",
         text: "Brazil's Soccer team celebrating"
     },
     {
-        array: ["The Eagles", "The Green Bay Packers", "The Bucanners", "The Cowboys"],
-        answer: "What is The Green Bay Packers",
+        array: ["What are the Eagles", "What are the Green Bay Packers", "What are the Bucanners", "What are the Cowboys"],
+        answer: "What are the Green Bay Packers",
         image: "assets/images/GreenBayPackers.jpg",
         text: "The Green Bay Packers"
     },
     {
-        array: ["Rocky Balboa", "Jack Johnson", "Joe Frazier", "Apollo Creed"],
-        answer: "What is Joe Frazier",
+        array: ["Who is Rocky Balboa", "Who is Jack Johnson", "Who is Joe Frazier", "Who is Apollo Creed"],
+        answer: "Who is Joe Frazier",
         image: "assets/images/JoeFrazier.jpg",
         text: "Joe Frazier"
     },
     {
-        array: ["A Mint Julep", "The Triple Crown", "The Golden Oat Sack", "A Nice Pet"],
+        array: ["What is A Mint Julep", "What is The Triple Crown", "What is The Golden Oat Sack", "What is A Nice Pat"],
         answer: "What is The Triple Crown",
         image: "assets/images/TripleCrown.jpg",
         text: "The Triple Crown Trophy"
     },
     {
-        array: ["Serena", "William Penn", "Venus", "Pharell"],
-        answer: "What is Serena",
+        array: ["Who is Serena", "Who is William Penn", "Who is Venus", "Who is Pharell"],
+        answer: "Who is Serena",
         image: "assets/images/SerenaWilliams.jpg",
         text: "Serena Williams"
         
@@ -210,7 +210,7 @@ $(document).ready(function() {
         for (var i = 0; i < 4; i ++) {
             var answerCard = $('<div>');
             $('.startBar').append(answerCard);
-            answerCard.text("What is "+category.answerArray[randomNumber].array[i]);
+            answerCard.text(category.answerArray[randomNumber].array[i]);
             answerCard.addClass('answerCard' + ' ' + "answer"+(i) + " "+"button")
         };
     };
